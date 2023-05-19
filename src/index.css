@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+ul li a:hover{
+  cursor: pointer;
+}
+.side{
+  position: fixed !important;
+  background-color: rgb(60, 0, 255);
+  z-index: 1000000000;
+}
+.ntr{
+  background: #161616 !important;
+}
+.HTR{
+  background: linear-gradient(179.94deg, #1F1F1F 8%, #111111 41.11%, #111111 99.95%);
+}
+
+.une{
+  background-color: #E0E9FFB8;
+}
+.deux{
+  background-color: #E4FFE0;
+}
+.trois{
+  background-color: #FFE0E0;
+}
+.quatre{
+  background-color: #FFFCE0;
+}
+.cinq{
+  background-color: #FFFCE0;
+}
+.cercle1{
+  background-color:  #F6F6F6;
+}
+.photo{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.leg{
+  font-size: 10px;
+  font-weight: 50px;
+}
+.texto{
+  padding-top: 100px;
+}
+
