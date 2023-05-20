@@ -17,7 +17,7 @@ const Nave = () => {
           <Nav className="me-auto float-end w-100">
             <Nav.Link href="#link" className='ms-auto'>
               <a href="/">
-                <button className='bg-transparent  border  border-none me-3 text-white rounded-pill  p-2 fw-bolder '>Sign Up</button>
+                <button className='bg-transparent  border-transparent me-3 text-white rounded-pill  p-2 fw-bolder '>Sign Up</button>
                </a>
               <a href="/">
                 <button className='bg-white  rounded-pill border border-white p-2 fw-bolder '>Log in</button>

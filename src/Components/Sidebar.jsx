@@ -59,7 +59,7 @@ const Side = () => {
               </il>
               <il>
               <a href="/">
-                <button className='mb-3 bg-transparent   border-transparent me-3 text-danger rounded-pill  p-2 fw-bolder '>Sign Up</button>
+                <button className='mb-3 bg-transparent  border border-transparent me-3 text-danger rounded-pill  p-2 fw-bolder '>Sign Up</button>
                </a><br />
               <a href="/">
                 <button className='bg-white  rounded-pill border border-white p-2 fw-bolder '>Log in</button>
