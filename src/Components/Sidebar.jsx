@@ -136,7 +136,7 @@ const Side = () => {
             </div> 
             <a href="/">
              
-                <button className='bg-transparent text-white  rounded-pill border border-white p-2 fw-bolder leg '> < BsGlobe /> English</button>
+                <button className='bg-transparent text-white fixed rounded-pill border border-white p-2 fw-bolder'> < BsGlobe /> English</button>
                </a>
             </div>
          </div>
