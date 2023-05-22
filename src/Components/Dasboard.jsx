@@ -85,7 +85,9 @@ const Dash = () => {
       <div className="row offset-lg-2  text-white">
 <div className=" d-flex justify-content-between p-3">
 <p>Focus</p>
-<p>Show all</p>
+<div className=" me-5 pe-5">
+<p className="show  me-5">Show all</p>
+</div>
 </div>
 <div class="row row-cols-1 mx-auto row-cols-md-3 row-cols-lg-5 g-4">
 
@@ -107,7 +109,7 @@ const Dash = () => {
 </div>
 <div className=" d-flex justify-content-between p-3">
 <p>Spotify Playlists</p>
-<p>Show all</p>
+<p className="">Show all</p>
 </div>
 <div class="row row-cols-1  mx-auto row-cols-md-3 row-cols-lg-5 g-4">
 

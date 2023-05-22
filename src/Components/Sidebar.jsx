@@ -1,11 +1,10 @@
-import { BsFillHouseDoorFill,BsSearch, BsJustifyLeft,BsFillPlusCircleFill,BsFillChatSquareHeartFill } from "react-icons/bs";
+import { BsFillHouseDoorFill,BsSearch, BsJustifyLeft,BsFillPlusCircleFill,BsFillChatSquareHeartFill, BsGlobe } from "react-icons/bs";
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 const Side = () => {
-
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -57,14 +56,14 @@ const Side = () => {
                   <span className="ms-3  d-none d-sm-inline">Liked song</span> 
                 </a>
               </il>
-              <il>
+              {/* <il>
               <a href="/">
                 <button className='mb-3 bg-transparent  border border-transparent me-3 text-danger rounded-pill  p-2 fw-bolder '>Sign Up</button>
                </a><br />
               <a href="/">
                 <button className='bg-white  rounded-pill border border-white p-2 fw-bolder '>Log in</button>
                </a>
-              </il>
+              </il> */}
             </ul>
             <div className="texto">
             <div className=" mt-5 pt-5 ">
@@ -78,7 +77,7 @@ const Side = () => {
                   <p className="leg"> Ads</p>
             </div> 
             <a href="/">
-                <button className='bg-transparent text-white  rounded-pill border border-white p-2 fw-bolder leg '>English</button>
+                <button className='bg-transparent text-white mt-5 rounded-pill border border-white p-2 fw-bolder leg '><BsGlobe /> English</button>
                </a>
             </div>
          </div>
@@ -136,7 +135,8 @@ const Side = () => {
                   <p className="leg"> Ads</p>
             </div> 
             <a href="/">
-                <button className='bg-transparent text-white  rounded-pill border border-white p-2 fw-bolder leg '>English</button>
+             
+                <button className='bg-transparent text-white  rounded-pill border border-white p-2 fw-bolder leg '> < BsGlobe /> English</button>
                </a>
             </div>
          </div>
